@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "umd:main": "lib/index.umd.js",
   "module": "lib/index.mjs",
-  "source": "index.jsx",
+  "source": "src/index.jsx",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
