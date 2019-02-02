@@ -4,8 +4,13 @@
 
 ## Usage
 
+```bash
+# Install with npm 
+$ npm i @pbteja-dev/ui.img
 ```
-const uiImg = require('@pbteja-dev/ui.img');
 
-// TODO: DEMONSTRATE API
+```jsx
+import { Img } from '@pbteja-dev/ui.img'
+
+<Img src="https://via.placeholder.com/350x150" alt="sample image"/>
 ```
