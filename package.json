@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pbteja1998/mybit-ui-components#readme",
   "devDependencies": {
-    "lerna": "^3.10.5"
+    "lerna": "^3.10.5",
+    "microbundle": "^0.9.0"
   }
 }
