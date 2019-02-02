@@ -1,7 +1,5 @@
 # `@pbteja-dev/ui.img`
 
-> TODO: description
-
 ## Usage
 
 ```bash
