@@ -4,7 +4,8 @@
   "description": "MyBit UI Toolkit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,13 @@
   },
   "homepage": "https://github.com/pbteja1998/mybit-ui-components#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
     "lerna": "^3.10.5",
     "microbundle": "^0.9.0"
   },
   "dependencies": {
-    "react": "^16.7.0"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
