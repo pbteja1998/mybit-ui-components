@@ -8,7 +8,7 @@ $ npm i @pbteja-dev/ui.img
 ```
 
 ```jsx
-import { Img } from '@pbteja-dev/ui.img'
+import Img from '@pbteja-dev/ui.img'
 
 <Img src="https://via.placeholder.com/350x150" alt="sample image"/>
 ```
