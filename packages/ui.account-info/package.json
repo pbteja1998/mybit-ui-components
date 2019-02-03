@@ -1,0 +1,36 @@
+{
+  "name": "@pbteja-dev/ui.account-info",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Bhanu Teja <pbteja1998@gmail.com>",
+  "homepage": "https://github.com/pbteja1998/mybit-ui-components/tree/master/packages/ui.account-info#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "umd:main": "lib/index.umd.js",
+  "module": "lib/index.mjs",
+  "source": "src/index.jsx",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbteja1998/mybit-ui-components.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "microbundle --jsx",
+    "dev": "microbundle --jsx watch"
+  },
+  "bugs": {
+    "url": "https://github.com/pbteja1998/mybit-ui-components/issues"
+  },
+  "dependencies": {
+    "@pbteja-dev/ui.address": "0.0.0"
+  }
+}
