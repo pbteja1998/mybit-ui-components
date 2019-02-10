@@ -5,15 +5,13 @@
   "author": "Bhanu Teja <pbteja1998@gmail.com>",
   "homepage": "https://github.com/pbteja1998/mybit-ui-components/tree/master/packages/ui.img#readme",
   "license": "MIT",
-  "main": "lib/index.js",
-  "umd:main": "lib/index.umd.js",
-  "module": "lib/index.mjs",
+  "main": "dist/index.js",
   "source": "src/index.jsx",
   "directories": {
-    "lib": "lib"
+    "dist": "dist"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
@@ -24,10 +22,17 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "microbundle --jsx",
-    "dev": "microbundle --jsx watch"
+    "build": "parcel build src/index.jsx"
   },
   "bugs": {
     "url": "https://github.com/pbteja1998/mybit-ui-components/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2"
   }
 }

@@ -20,10 +20,12 @@
   "homepage": "https://github.com/pbteja1998/mybit-ui-components#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/react": "^4.1.11",
     "babel-loader": "^8.0.5",
     "lerna": "^3.10.5",
-    "microbundle": "^0.9.0"
+    "microbundle": "^0.9.0",
+    "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
     "react": "^16.5.2",
