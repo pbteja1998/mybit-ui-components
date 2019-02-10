@@ -1,6 +1,6 @@
 {
   "name": "@pbteja-dev/ui.account-info",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "> TODO: description",
   "author": "Bhanu Teja <pbteja1998@gmail.com>",
   "homepage": "https://github.com/pbteja1998/mybit-ui-components/tree/master/packages/ui.account-info#readme",
@@ -36,6 +36,6 @@
     "@babel/core": "^7.2.2"
   },
   "dependencies": {
-    "@pbteja-dev/ui.address": "^1.0.0-alpha.0"
+    "@pbteja-dev/ui.address": "^1.0.0-alpha.1"
   }
 }
