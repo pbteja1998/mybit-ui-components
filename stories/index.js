@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import Img from "../packages/ui.img/src";
 import Address from "../packages/ui.address/src";
 import AccountInfo from "../packages/ui.account-info/src";
+import Alert from "../packages/ui.alert/src";
 
 storiesOf('Img', module)
     .add('with src and alt', () => (
@@ -30,4 +31,18 @@ storiesOf('Account Info', module)
     ))
     .add('without any props', () => (
         <AccountInfo />
+    ));
+
+storiesOf('Alert', module)
+    .add('with info', () => (
+        <Alert type="info" message="Info message" key="Alert-example-1" handleAlertClosed={() => {}}/>
+    ))
+    .add('with success', () => (
+        <Alert type="success" message="Success message" key="Alert-example-2" handleAlertClosed={() => {}}/>
+    ))
+    .add('with warning', () => (
+        <Alert type="warning" message="Warning message" key="Alert-example-3" handleAlertClosed={() => {}}/>
+    ))
+    .add('with error', () => (
+        <Alert type="error" message="Error message" key="Alert-example-4" handleAlertClosed={() => {}}/>
     ));
